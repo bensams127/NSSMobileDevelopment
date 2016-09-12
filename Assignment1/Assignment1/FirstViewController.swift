@@ -8,26 +8,16 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        <#code#>
-    }
+   //I want to add a bunch of other variables just to make is different
     
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        <#code#>
-    }
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        <#code#>
-    }
+    var lawnmowerSound:String = "Loud"
+    var airConditionerSound:String = "Crazy Loud"
 }
 
