@@ -18,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BwQ-PF-ueF" userLabel="Smaller View">
@@ -64,7 +64,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1TY-9a-SEJ" userLabel="Spacing View">
@@ -266,11 +266,6 @@
                                 <exclude reference="Tey-0v-dhp"/>
                                 <exclude reference="hNA-ow-dxJ"/>
                                 <exclude reference="pAg-J6-ets"/>
-                                <exclude reference="ADE-if-Mmi"/>
-                                <exclude reference="IiP-LH-6xe"/>
-                                <exclude reference="X2X-DA-vpP"/>
-                                <exclude reference="XY5-bK-MRQ"/>
-                                <exclude reference="oOk-rh-gUQ"/>
                                 <exclude reference="CxO-p6-lD6"/>
                                 <exclude reference="Jc1-YZ-4st"/>
                                 <exclude reference="Qse-15-UuA"/>
@@ -278,6 +273,11 @@
                                 <exclude reference="Uja-qz-DP7"/>
                                 <exclude reference="dVs-4S-81M"/>
                                 <exclude reference="upG-pm-WuE"/>
+                                <exclude reference="ADE-if-Mmi"/>
+                                <exclude reference="IiP-LH-6xe"/>
+                                <exclude reference="X2X-DA-vpP"/>
+                                <exclude reference="XY5-bK-MRQ"/>
+                                <exclude reference="oOk-rh-gUQ"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=compact-widthClass=compact">
@@ -298,13 +298,6 @@
                                 <exclude reference="psA-CK-Wum"/>
                                 <exclude reference="vdN-xD-8Kp"/>
                                 <exclude reference="wBh-X8-IQM"/>
-                                <exclude reference="ADE-if-Mmi"/>
-                                <exclude reference="IiP-LH-6xe"/>
-                                <include reference="X2X-DA-vpP"/>
-                                <include reference="XY5-bK-MRQ"/>
-                                <exclude reference="ZTd-ca-Gyx"/>
-                                <exclude reference="ey2-yd-AGd"/>
-                                <include reference="oOk-rh-gUQ"/>
                                 <exclude reference="8Rf-QN-Apg"/>
                                 <include reference="CxO-p6-lD6"/>
                                 <include reference="Jc1-YZ-4st"/>
@@ -315,6 +308,13 @@
                                 <exclude reference="f7B-bJ-MBJ"/>
                                 <exclude reference="r5o-xS-F2l"/>
                                 <exclude reference="upG-pm-WuE"/>
+                                <exclude reference="ADE-if-Mmi"/>
+                                <exclude reference="IiP-LH-6xe"/>
+                                <include reference="X2X-DA-vpP"/>
+                                <include reference="XY5-bK-MRQ"/>
+                                <exclude reference="ZTd-ca-Gyx"/>
+                                <exclude reference="ey2-yd-AGd"/>
+                                <include reference="oOk-rh-gUQ"/>
                             </mask>
                         </variation>
                     </view>
