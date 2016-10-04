@@ -12,8 +12,10 @@ class Problem3ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        self.view.backgroundColor = UIColor.yellow//.withAlphaComponent(0.1)
+        
+        self.navigationItem.title = "Problem 3"
     }
 
     override func didReceiveMemoryWarning() {
