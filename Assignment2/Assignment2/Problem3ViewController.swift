@@ -10,10 +10,20 @@ import UIKit
 
 class Problem3ViewController: UIViewController {
 
+    @IBAction func runButton3(_ sender: AnyObject) {
+       textField3.text = ("We have pushed the button successfully")
+      
+        
+        
+    }
+    
+    @IBOutlet weak var textField3: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.backgroundColor = UIColor.yellow//.withAlphaComponent(0.1)
+      //  self.view.backgroundColor = UIColor.yellow.withAlphaComponent(0.1)
         
         self.navigationItem.title = "Problem 3"
     }

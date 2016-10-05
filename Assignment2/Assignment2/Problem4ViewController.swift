@@ -10,18 +10,21 @@ import UIKit
 
 class Problem4ViewController: UIViewController {
 
+    @IBAction func runButton4(_ sender: AnyObject) {
+        textField4.text = ("We have successfully pushed this button")
+    }
+   
+    @IBOutlet weak var textField4: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.blue
+        //self.view.backgroundColor = UIColor.blue
         
         self.navigationItem.title = "Problem 4"
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+
     
 
     /*
