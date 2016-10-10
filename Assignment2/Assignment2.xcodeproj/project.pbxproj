@@ -10,6 +10,9 @@
 		2BBF09A41DA3F3E8006C3CD2 /* Problem2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF09A31DA3F3E8006C3CD2 /* Problem2ViewController.swift */; };
 		2BBF09A61DA3F3FD006C3CD2 /* Problem3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF09A51DA3F3FD006C3CD2 /* Problem3ViewController.swift */; };
 		2BBF09A81DA3F419006C3CD2 /* Problem4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBF09A71DA3F419006C3CD2 /* Problem4ViewController.swift */; };
+		2BC14A9E1DA5DBD500D01FA7 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC14A9D1DA5DBD500D01FA7 /* Grid.swift */; };
+		2BC14AA01DA5DDDF00D01FA7 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC14A9F1DA5DDDF00D01FA7 /* Cell.swift */; };
+		2BC14AA21DA5DE3500D01FA7 /* cellState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC14AA11DA5DE3500D01FA7 /* cellState.swift */; };
 		2BEAFFC61D9B070D00941E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAFFC51D9B070D00941E66 /* AppDelegate.swift */; };
 		2BEAFFC81D9B070D00941E66 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEAFFC71D9B070D00941E66 /* MainController.swift */; };
 		2BEAFFCB1D9B070D00941E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BEAFFC91D9B070D00941E66 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 		2BBF09A31DA3F3E8006C3CD2 /* Problem2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2ViewController.swift; sourceTree = "<group>"; };
 		2BBF09A51DA3F3FD006C3CD2 /* Problem3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem3ViewController.swift; sourceTree = "<group>"; };
 		2BBF09A71DA3F419006C3CD2 /* Problem4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4ViewController.swift; sourceTree = "<group>"; };
+		2BC14A9D1DA5DBD500D01FA7 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		2BC14A9F1DA5DDDF00D01FA7 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2BC14AA11DA5DE3500D01FA7 /* cellState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cellState.swift; sourceTree = "<group>"; };
 		2BEAFFC21D9B070D00941E66 /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BEAFFC51D9B070D00941E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BEAFFC71D9B070D00941E66 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				2BBF09A31DA3F3E8006C3CD2 /* Problem2ViewController.swift */,
 				2BBF09A51DA3F3FD006C3CD2 /* Problem3ViewController.swift */,
 				2BBF09A71DA3F419006C3CD2 /* Problem4ViewController.swift */,
+				2BC14A9D1DA5DBD500D01FA7 /* Grid.swift */,
+				2BC14A9F1DA5DDDF00D01FA7 /* Cell.swift */,
+				2BC14AA11DA5DE3500D01FA7 /* cellState.swift */,
 				2BEAFFCC1D9B070D00941E66 /* Assets.xcassets */,
 				2BEAFFCE1D9B070D00941E66 /* LaunchScreen.storyboard */,
 				2BEAFFD11D9B070D00941E66 /* Info.plist */,
@@ -148,9 +157,12 @@
 			files = (
 				2BBF09A41DA3F3E8006C3CD2 /* Problem2ViewController.swift in Sources */,
 				2BEAFFC81D9B070D00941E66 /* MainController.swift in Sources */,
+				2BC14AA01DA5DDDF00D01FA7 /* Cell.swift in Sources */,
+				2BC14AA21DA5DE3500D01FA7 /* cellState.swift in Sources */,
 				2BBF09A81DA3F419006C3CD2 /* Problem4ViewController.swift in Sources */,
 				2BBF09A61DA3F3FD006C3CD2 /* Problem3ViewController.swift in Sources */,
 				2BEAFFC61D9B070D00941E66 /* AppDelegate.swift in Sources */,
+				2BC14A9E1DA5DBD500D01FA7 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
