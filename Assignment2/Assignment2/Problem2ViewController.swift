@@ -9,15 +9,67 @@
 import UIKit
 
 class Problem2ViewController: UIViewController {
+  
+    @IBOutlet weak var textField2: UITextView!
 
     @IBAction func runButton2(_ sender: AnyObject) {
         textField2.text = ("We have pushed this button successfully")
         
-       
-      
+        enum CellState {
+            case Alive
+            case Empty
+            case Born
+            case Died
+            
+            func isAlive() -> Bool {
+                switch self {
+                case .Alive, .Born:
+                    return true
+                case .Empty, .Died:
+                    return false
+                }
+            }
+            
+            func displayValue() -> String {
+                switch self {
+                case .Alive:
+                    return "Alive"
+                case .Empty:
+                    return "Empty"
+                case .Born:
+                    return "Born"
+                case .Died:
+                    return "Died"
+                }
+            }
+        }
+
+        
+        let arrayElement = [Bool](repeating: false, count: 10)
+        var before: [[Bool]] = [[Bool]](repeating: arrayElement, count:10)
+        for i in 0 ..< arrayElement.count {
+            for j in 0 ..< before.count {
+                if arc4random_uniform(3) == 1 {
+                    before[i][j] = true
+                    
+                
+                    let numberOfTrue = (0 ..< before.count).reduce(0) { (accum, row) in
+                        return accum + before[row].filter { $0 }.count
+                        }
+                   
+                    print (numberOfTrue)
+                    
+                    textField2.text = ("There are \(numberOfTrue) Living Cells here")
+                }
+                
+                }
+        }
+        
+        for _ in before {
+            return before.count
+        }
     }
-   
-    @IBOutlet weak var textField2: UITextView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,20 +84,5 @@ class Problem2ViewController: UIViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
