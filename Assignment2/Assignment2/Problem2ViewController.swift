@@ -16,32 +16,11 @@ class Problem2ViewController: UIViewController {
         
         textField2.text = ("We have pushed this button successfully")
         
-//        let arrayElement = [Bool](repeating: false, count: 10)
-//        var before: [[Bool]] = [[Bool]](repeating: arrayElement, count:10)
-//        for i in 0 ..< arrayElement.count {
-//            for j in 0 ..< before.count {
-//                if arc4random_uniform(3) == 1 {
-//                    before[i][j] = true
-//                    
-//                    let numberOfTrue = (0 ..< before.count).reduce(0) { (accum, row) in
-//                        return accum + before[row].filter { $0 }.count
-//                        
-                }
-                    textField2.text = ("There are \(asdfasdf) Living Cells here")
-
-
+               
+               
         
-                           
-            
-                    
-                    
-                    }
-
-            }
-        }
+        textField2.text = ("There are \(step.numberOfTrue) Living Cells here and \(step2.isLiving) living Neighbors")
     }
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
