@@ -19,11 +19,11 @@ func step() ->() {
             row[i] = true
             before[j] = row
             
+                }
+            }
         }
-    }
-}
 
-let numberOfTrue = (0 ..< before.count).reduce(0) { (accum, row) in
+    let numberOfTrue = (0 ..< before.count).reduce(0) { (accum, row) in
     return accum + before[row].filter { $0 }.count
     
 }
@@ -75,4 +75,5 @@ func step2 () ->() {
     }
     
     
+
 }

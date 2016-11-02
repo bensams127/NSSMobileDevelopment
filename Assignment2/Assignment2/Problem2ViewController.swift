@@ -19,7 +19,7 @@ class Problem2ViewController: UIViewController {
                
                
         
-        textField2.text = ("There are \(step.numberOfTrue) Living Cells here and \(step2.isLiving) living Neighbors")
+        textField2.text = ("There are (numberOfTrue) Living Cells here and () living Neighbors")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
